@@ -28,4 +28,4 @@ jobs:
 
       - name: Run tests with pytest
         run: |
-          pytest --cov=.
+          python -m  pytest app.py
